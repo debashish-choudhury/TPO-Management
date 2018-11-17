@@ -1,0 +1,48 @@
+
+  
+  #drive,#InputRound,#InputRoundButton{
+    display: none;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+.drive-create {
+  margin-left: 30px;
+}
+
+  #login_page{
+    align-content: center;
+    height : 80%;
+    width  :80%;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border-radius: 20px;
+  
+  }
+  #drive_button {
+    margin-top: 100px; 
+
+  }
+  
+  #login_button , #drive_button , #add_round, #drive_submit,#InputRoundButton{
+    background-color:white;
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+  }
+
+  
+  
+  hr{
+    border : 1px solid black;
+    background-color: black ;
+  }
+  #RoundList{
+    display:none;
+  }
+  
+  #InputRound,#InputRoundButton {
+    float : center;
+  }

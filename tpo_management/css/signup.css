@@ -1,0 +1,146 @@
+body {
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+                overflow: hidden;
+            }
+            input[type=radio] {
+                padding: 12px 20px;
+                margin: 8px 0;
+
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            .container {
+                margin: 0;
+                padding-right: 0;
+                padding-left: 0;
+                padding-top: 0;
+            }
+
+            .container-form {
+                margin-right: 0;
+                overflow: hidden;
+                position: fixed;
+                opacity: 0.9;
+                right: 0;
+                background-color: #d9e3d6;
+                height: 100%;
+            }
+
+            
+            /************* slider css ****************/
+
+            .recruiter-slider {
+                height: 100%;
+                padding-top: 4%;
+            }
+
+            .recruiter-slider figure div {
+                width: 20%;
+                float: left;
+            }
+
+            .recruiter-slider figure img {
+                margin: 0;
+                padding: 0;
+                margin-top: 0;
+                width: 100%;
+                height: 700px;
+                float: left;
+                top: 0;
+            }
+
+            .recruiter-slider figure {
+                position: relative;
+                width: 500%;
+                margin: 0;
+                left: 0;
+                animation: 50s recruiter-slidy infinite;
+            }
+
+            @keyframes recruiter-slidy {
+                0% { left: 0; }
+                20% { left: 0; }
+                25% { left: -100%; }
+                45% { left: -100%; }
+                50% { left: -200%; }
+                70% { left: -200%; }
+                75% { left: -300%; }
+                95% { left: -300%; }
+                100% { left: 0%; }
+            }
+
+            /************* slider css ****************/
+            .title {
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+                font-size: 18px;
+                font-weight: 300px;
+
+            }
+
+            .multiInput{
+                width: 25%;
+            }
+            #fname, #lname,#emailid, #mobile, #repasswd, .branch-select, .year-select {
+                width: 35%;
+                margin: 0;
+                left:20px;
+            }
+
+            #emailid {
+                margin-left: 18px;
+            }
+            
+            #lname {
+                float: right;
+            }
+
+            .lastname {
+                float: right;
+                margin-top: 12px;
+                margin-right: 6px;
+            }
+
+            #mobile {
+                float: right;
+                margin-top: -40px;
+            }
+            .mobile {
+                float: right;
+                margin-top: -28px;
+                margin-right: 6px;
+            }
+
+            #passwd, .barnch-select {
+                width: 40%;
+            }
+
+            #repasswd {
+                float: right;
+                margin-top: -49px;
+                margin-right: 0px;
+                width: 40%;
+            }
+            .repasswd {
+                float: right;
+                margin-top: -73px;
+                width: 40%;
+                margin-right: 0px;
+            }
+
+            .signinOption {
+                margin: 10px;
+                margin-top: 0px;
+            }
+
+            input[type=reset], .form-button  {
+                border: 0; 
+                width: 80px;
+                height: 30px;
+                background-color: #009688;
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+                color: #fff;
+                cursor: pointer;
+                border-radius: 2px;
+            }
